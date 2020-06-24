@@ -1,0 +1,5 @@
+cat_o = float(input("Cateto oposto:"))
+cat_a = float(input("Cateto adjacente:"))
+hipot = (cat_a**2) + (cat_o**2)
+raiz_hipot = hipot**(1/2)
+print("Valor da hipotenusa:", raiz_hipot)
